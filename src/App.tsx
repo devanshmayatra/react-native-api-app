@@ -19,7 +19,7 @@ import {
 }
 
   from 'react-native/Libraries/NewAppScreen';
-import { styles } from './styles';
+import { styles } from './styles/styles.tsx';
 import AllUserScreen from './modules/AllUserScreen/AllUserScreen.tsx';
 import { NavigationContainer } from '@react-navigation/native';
 import { MyRoutes } from './utils/MyRoutes.tsx';

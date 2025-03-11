@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, FlatList, Image, StyleSheet } from 'react-native';
 import { User } from '../types/user';
-import { styles } from '../styles';
+import { styles } from '../styles/styles';
 
 const UserTable = ({ data }: { data: User }) => {
   return (

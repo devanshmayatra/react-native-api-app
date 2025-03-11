@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, Text, View } from 'react-native';
 import CustomButton from '../../components/CustomButton';
 import { User } from '../../types/user';
-import { styles } from '../../styles';
+import { styles } from '../../styles/styles';
 import UserTable from '../../components/Table';
 
 const UserScreen = ({ navigation, route }: any) => {

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { FlatList, Image, Text, TouchableHighlight, View } from 'react-native';
 import { getData } from '../../service/service.ts';
 import { User } from '../../types/user';
-import { styles } from '../../styles.tsx';
+import { styles } from '../../styles/styles.tsx';
 
 const AllUserScreen = (props: any) => {
 
